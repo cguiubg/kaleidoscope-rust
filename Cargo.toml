@@ -6,8 +6,9 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+getchar = "0.1.2"
 inkwell = { git = "https://github.com/TheDan64/inkwell", branch = "master", features = ["llvm14-0"] }
 
 [[bin]]
 name = "kaleidoscope-rust"
-path = "main.rs"
+path = "src/main.rs"
